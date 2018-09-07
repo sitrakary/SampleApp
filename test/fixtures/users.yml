@@ -1,2 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-# Leave blank for now
+sitraka:
+  name: Sitraka Ratsimba
+  email: ratsimbasitraka@gmail.com
+  password_digest: <%= User.digest 'password' %>
